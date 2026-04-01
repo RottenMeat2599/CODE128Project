@@ -1,5 +1,0 @@
-EXPORTS
-    CreateGenerator
-    DestroyGenerator
-    GenerateBarcode
-    GetLastError
