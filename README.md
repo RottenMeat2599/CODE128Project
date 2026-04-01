@@ -8,7 +8,16 @@ cd build
 cmake .. -G "Visual Studio 17 2022" -A x64  
 cmake --build . --config Release  
 
-## Linux/macOS:  
-mkdir build && cd build  
+## Linux:  
+cd /home/retro/code128  
+mkdir build  
+cd build  
+cmake ..  
+make  
+
+## MacOS:  
+cd /Users/retro/code128  
+mkdir build  
+cd build  
 cmake ..  
 make  
